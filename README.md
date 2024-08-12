@@ -57,12 +57,12 @@ After training is complete, `main.py` will automatically terminate the EC2 insta
 
 ```
 SM3_Pipeline/
-â
-âââ main.py                 # Automates EC2 instance lifecycle and training
-âââ sm3.py                  # Core model training script
-âââ config.yaml             # Configuration file for AWS and training settings
-âââ setup_ami.sh            # Script to prepare a custom AMI (optional)
-âââ README.md               # Detailed documentation of the project
+│
+├── main.py                 # Automates EC2 instance lifecycle and training
+├── sm3.py                  # Core model training script
+├── config.yaml             # Configuration file for AWS and training settings
+├── setup_ami.sh            # Script to prepare a custom AMI (optional)
+└── README.md               # Detailed documentation of the project
 ```
 ## Usage Notes
 
