@@ -1,5 +1,7 @@
 # SM3 Pipeline
-
+___
+![imag](
+___
 ## Overview
 
 The SM3 Pipeline is an automated system designed for training a Q-learning agent using cloud-based infrastructure on AWS EC2 instances equipped with GPUs. The pipeline aims to  encompass everything from infrastructure provisioning, model building, and training to cleanup, allowing for efficient and scalable machine learning model development.
