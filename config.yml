@@ -1,0 +1,16 @@
+aws:
+  instance_type: p3.2xlarge
+  key_name: your-key-pair
+  security_group: your-security-group-id
+  ami_id: ami-xxxxxxxx
+  num_instances: 2
+  key_path: /path/to/your/private-key.pem
+  script_path: /path/to/your/sm3.py
+
+training:
+  input_dim: 376
+  num_hidden_units: 256
+  num_attention_heads: 8
+  action_space_size: 17
+  num_episodes: 1000
+  eval_episodes: 100
